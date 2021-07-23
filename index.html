@@ -6,6 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erickson Siqueira dev web</title>
+    <!-- Fonte do ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Fonte Noto Sans JP-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Estilização dos site -->
+    <style>
+        body {
+            background-color: #EDF2F4;
+            color: #333333;
+        }
+        .name {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 700;
+        }
+        .description {
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 400;
+        }
+        strong {
+            color: #4E4176;
+        }
+        .highlight {
+            font-size: 1.8;
+            color: #F07605;
+        }
+        .normal {
+            color: #30382E;
+        }
+        ul {
+            list-style: none;
+            line-height: 1.6em;
+            font-size: 1.5em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,11 +61,11 @@
     <hr>
     <!-- Introdução -->
     <div id="intro">
-        <h1>Erickson Siqueira</h1>
+        <h1 class="name">Erickson Siqueira</h1>
         <img src="./imagens/2021-07-21_19-03.png" alt="Foto do Erickson Siqueira" width="250" id="foto-principal">
 
-        <p>Sou <strong>Erickson Siqueira</strong>, moro no Brasil em Nova Iguaçu <i>baixada fluminense</i> do Rio de
-            Janeiro.Estudante de desenvolvimento web apaixonado por tecnologia e marcas que promovam a acessibilidade e
+        <p class="description">Sou <strong>Erickson Siqueira</strong>, moro no Brasil em Nova Iguaçu <i>baixada fluminense</i> do Rio de
+            Janeiro. Estudante de desenvolvimento web apaixonado por tecnologia e marcas que promovam a acessibilidade e
             diversidade</p>
     </div>
     <hr>
@@ -31,12 +74,12 @@
     <div id="habilidades">
         <h2>Minhas Habilidades</h2>
         <ul>
-            <li><strong>Git</strong></li>
-            <li>GitHub</li>
-            <li><strong>Bash</strong></li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li><strong>JavaScrpit</strong></li>
+            <li class="highlight">Git</li>
+            <li class="normal">GitHub</li>
+            <li class="highlight">Bash</li>
+            <li class="normal">HTML</li>
+            <li class="normal">CSS</li>
+            <li class="highlight">JavaScript</li>
         </ul>
     </div>
     <hr>
