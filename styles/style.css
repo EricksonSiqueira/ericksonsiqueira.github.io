@@ -35,6 +35,10 @@ h2 {
     width: 300px;
 }
 
+.name {
+    text-align: center;
+}
+
 .img-container {
     height: 300px;
 }
