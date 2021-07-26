@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erickson Siqueira dev web</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+
     <!-- Fonte do ubuntu -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,75 +18,54 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Estilização dos site -->
-    <style>
-        body {
-            background-color: #EDF2F4;
-            color: #333333;
-        }
-        .name {
-            font-family: 'Noto Sans JP', sans-serif;
-            font-weight: 700;
-        }
-        .description {
-            font-family: 'Ubuntu', sans-serif;
-            font-weight: 400;
-        }
-        strong {
-            color: #4E4176;
-        }
-        .highlight {
-            font-size: 1.8;
-            color: #F07605;
-        }
-        .normal {
-            color: #30382E;
-        }
-        ul {
-            list-style: none;
-            line-height: 1.6em;
-            font-size: 1.5em;
-        }
-        h2 {
-            font-size: 1.8em;
-        }
-    </style>
 </head>
 
 <body>
-    <!--Bara de navegação-->
+
     <nav>
         <a href="#intro">Introdução</a>
-        <a href="#habilidades">Habilidades</a>
+        <a href="#abilities">Habilidades</a>
         <a href="#links">Links</a>
     </nav>
     <hr>
-    <!-- Introdução -->
+
     <div id="intro">
         <h1 class="name">Erickson Siqueira</h1>
-        <img src="./imagens/2021-07-21_19-03.png" alt="Foto do Erickson Siqueira" width="250" id="foto-principal">
+        <hr>
 
-        <p class="description">Sou <strong>Erickson Siqueira</strong>, moro no Brasil em Nova Iguaçu <i>baixada fluminense</i> do Rio de
-            Janeiro. Estudante de desenvolvimento web apaixonado por tecnologia e marcas que promovam a acessibilidade e
-            diversidade</p>
+        <div class="img-container">
+            <img src="./imagens/2021-07-21_19-03.png" alt="Foto do Erickson Siqueira" id="main-picture">
+
+            <p class="description">Sou <strong>Erickson Siqueira</strong>, moro no Brasil em Nova Iguaçu <em>baixada
+                    fluminense</em> do Rio de
+                Janeiro. Estudante de desenvolvimento web apaixonado por tecnologia e marcas que promovam a
+                acessibilidade e
+                diversidade</p>
+        </div>
+
     </div>
     <hr>
 
-    <!-- Habilidades -->
-    <div id="habilidades">
+    <div id="abilities">
         <h2>Minhas Habilidades</h2>
+        <h3>Hard skills</h3>
         <ul>
             <li class="highlight">Git</li>
             <li class="normal">GitHub</li>
             <li class="highlight">Bash</li>
             <li class="normal">HTML</li>
-            <li class="normal">CSS</li>
             <li class="highlight">JavaScript</li>
+            <li class="normal">CSS</li>
+        </ul>
+        <h3>Soft skills</h3>
+        <ul>
+            <li class="highlight">Empatia</li>
+            <li class="normal">Flexibilidade</li>
+            <li class="highlight">Calma</li>
         </ul>
     </div>
     <hr>
-    <!-- Links -->
+
     <div id="links">
         <p><a href="https://www.codigofonte.com.br/tag/blog" target="_blank">Blog do codigo fonte</a></p>
     </div>

@@ -1,0 +1,54 @@
+body {
+    background-color: #EDF2F4;
+    color: #333333;
+    padding: 1%;
+}
+.name {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.description {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+strong {
+    color: #4E4176;
+}
+.highlight {
+    font-size: 1.8;
+    color: #F07605;
+}
+.normal {
+    color: #30382E;
+}
+ul {
+    list-style: none;
+    line-height: 1.6em;
+    font-size: 1.4em;
+}
+h2 {
+    font-size: 1.8em;
+}
+
+#main-picture {
+    float: left;
+    height: 290px;
+    padding: 5px;
+    background-color: rgba(144, 235, 8, 0.521);
+}
+
+
+.img-container {
+    height: 300px;
+}
+
+ul li:nth-child(odd) {
+    color: #F07605;
+}
+
