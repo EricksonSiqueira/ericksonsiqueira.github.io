@@ -3,6 +3,22 @@ body {
     color: #333333;
     padding: 1%;
 }
+strong {
+    color: #4E4176;
+}
+ul {
+    list-style: none;
+    line-height: 1.6em;
+    font-size: 1.4em;
+}
+h2 {
+    font-size: 1.8em;
+}
+
+ul li:nth-child(odd) {
+    color: #F07605;
+}
+
 .name {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
@@ -17,9 +33,6 @@ body {
     top: 100px;
     left: 10px;
 }
-strong {
-    color: #4E4176;
-}
 .highlight {
     font-size: 1.8;
     color: #F07605;
@@ -27,28 +40,30 @@ strong {
 .normal {
     color: #30382E;
 }
-ul {
-    list-style: none;
-    line-height: 1.6em;
-    font-size: 1.4em;
-}
-h2 {
-    font-size: 1.8em;
-}
 
 #main-picture {
     float: left;
     height: 290px;
     padding: 5px;
     background-color: rgba(144, 235, 8, 0.521);
+    border-radius: 50%;
 }
-
 
 .img-container {
     height: 300px;
 }
 
-ul li:nth-child(odd) {
-    color: #F07605;
+.hard-skills {
+    float: left;
+    height: 300px;
+    width: 200px;
 }
+.soft-skills {
+    float: left;
+    width: 500px;
+}
+#abilities {
+    min-height: 350px;
+}
+
 
