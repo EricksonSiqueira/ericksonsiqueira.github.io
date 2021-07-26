@@ -52,3 +52,17 @@ ul li:nth-child(odd) {
     height: 300px;
 }
 
+.hard-skills {
+    float: left;
+    height: 300px;
+    width: 200px;
+}
+.soft-skills {
+    float: left;
+    width: 500px;
+}
+#abilities {
+    min-height: 350px;
+}
+
+
