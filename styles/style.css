@@ -1,15 +1,21 @@
 body {
     background-color: #EDF2F4;
     color: #333333;
+    padding: 1%;
 }
 .name {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 30px;
 }
 .description {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 10px;
 }
 strong {
     color: #4E4176;
@@ -24,7 +30,7 @@ strong {
 ul {
     list-style: none;
     line-height: 1.6em;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 h2 {
     font-size: 1.8em;
@@ -40,5 +46,9 @@ h2 {
 
 .img-container {
     height: 300px;
+}
+
+ul li:nth-child(odd) {
+    color: #F07605;
 }
 
