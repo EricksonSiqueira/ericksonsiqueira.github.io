@@ -28,3 +28,17 @@ ul {
 h2 {
     font-size: 1.8em;
 }
+
+#main-picture {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+.img-container {
+    height: 300px;
+}
+
+div {
+    border: 2px solid green;
+}
