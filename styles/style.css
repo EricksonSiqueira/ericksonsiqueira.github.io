@@ -46,6 +46,7 @@ ul li:nth-child(odd) {
     height: 290px;
     padding: 5px;
     background-color: rgba(144, 235, 8, 0.521);
+    border-radius: 50%;
 }
 
 .img-container {
