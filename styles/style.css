@@ -5,6 +5,7 @@ body {
 .name {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 .description {
     font-family: 'Ubuntu', sans-serif;
@@ -35,9 +36,6 @@ h2 {
     width: 300px;
 }
 
-.name {
-    text-align: center;
-}
 
 .img-container {
     height: 300px;
