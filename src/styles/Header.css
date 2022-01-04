@@ -1,5 +1,6 @@
 :root {
   --purple-blue: #B8B8F3;
+  --emerald: #63D471;
 }
 
 * {
@@ -16,7 +17,7 @@ header {
   box-shadow: 0px 1px 2px 1px #222;
 }
 
-nav {
+.header-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -24,7 +25,17 @@ nav {
   height: 85px;
 }
 
-a {
+.header-nav a {
+  border: 2px solid var(--purple-blue);
+  border-radius: 10px;
   color: var(--purple-blue);
   text-decoration: none;
+  padding: 5px;
+  transition: all 0.4s ease-out;
+}
+
+.header-nav a:hover {
+  background-color: #B8B8F3;
+  border: 2px solid #333;
+  color: #fff;
 }

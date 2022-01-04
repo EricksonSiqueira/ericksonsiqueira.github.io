@@ -1,4 +1,8 @@
 /*Used this https://codepen.io/mr-zouraiz123/pen/gORBRdX as base*/
+.button {
+  text-decoration: none;
+  color: var(--purple-blue);
+}
 
 footer {
   position: absolute;
@@ -77,3 +81,4 @@ footer .button:nth-child(2) span{
 footer .button:nth-child(3) span{
   color: #fff;
 }
+
