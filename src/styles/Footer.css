@@ -1,5 +1,14 @@
 /*Used this https://codepen.io/mr-zouraiz123/pen/gORBRdX as base*/
 
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 25px;
+  margin: 0 auto;
+}
+
 footer .button{
   display: inline-block;
   height: 60px;
