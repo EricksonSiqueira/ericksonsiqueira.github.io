@@ -14,7 +14,7 @@ function Home() {
           className="profile-pic"
         />
         <p className="home-text">
-          Olá, meu nome é <span>Erickson</span> seja bem vindo ao meu site! Sou desenvolvedor front-end na rota para me tornar um desenvolvedor Full Stack.
+          Olá, meu nome é <span>Erickson</span>, seja bem vindo ao meu site! Sou desenvolvedor front-end na rota para me tornar um desenvolvedor Full Stack.
         </p>
       </main>
       <Footer />

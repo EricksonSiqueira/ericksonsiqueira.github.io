@@ -29,6 +29,7 @@ main {
   width: 50%;
   font-weight: 700;
   margin-bottom: 1rem;
+  text-shadow: 4px 3px rgb(0, 0, 0);
 }
 
 .home-text span {
