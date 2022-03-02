@@ -10,8 +10,8 @@ export const HeroStyled = style.section`
   overflow-x: hidden;
 
   section {
-    margin 0 30px;
-    margin-top: -50px;
+    margin 0 50px;
+    margin-top: -45px;
     display: flex;
     flex-direction: column;
     jutify-content: center;
