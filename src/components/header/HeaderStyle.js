@@ -10,6 +10,7 @@ export const HeaderStyled = style.header`
 `;
 
 export const ButtonIcon = style.button`
+
   background: ${props => props.theme.colors.darkPurple};
   margin: 0px 10px;
   border: none;
