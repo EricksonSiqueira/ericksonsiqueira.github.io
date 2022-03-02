@@ -1,22 +1,20 @@
-import style from 'styled-components';
+import styled from 'styled-components';
 
-export const HeroStyled = style.section`
-  font-size: 24px;
+export const HeroStyled = styled.section`
+  font-size: 18px;
   display: flex;
   height: 90vh;
   flex-direction: column;
-  jutify-content: center;
   align-items:center;
   overflow-x: hidden;
 
+
   section {
-    margin 0 50px;
+    margin: 0 30px;
     margin-top: -45px;
     display: flex;
     flex-direction: column;
-    jutify-content: center;
     align-items:center;
-    z-index: 1;
   }
 
   .code {
