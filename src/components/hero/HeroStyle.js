@@ -11,7 +11,7 @@ export const HeroStyled = styled.section`
 
   section {
     margin: 0 30px;
-    margin-top: -30px;
+    margin-top: -45px;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -22,5 +22,9 @@ export const HeroStyled = styled.section`
   }
   .name {
     color: ${props => props.theme.colors.greenText};
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    flex-direction: row;
   }
 `;
