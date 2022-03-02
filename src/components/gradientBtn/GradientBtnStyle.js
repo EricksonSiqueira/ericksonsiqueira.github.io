@@ -11,7 +11,7 @@ export const GradientBtnStyled = styled.button`
   transition: 0.5s;
   background-size: 200% auto;
   color: ${props => props.theme.colors.textColor};
-  border-radius: 10px;
+  border-radius: 30px;
   display: block;
   border: none;
 
