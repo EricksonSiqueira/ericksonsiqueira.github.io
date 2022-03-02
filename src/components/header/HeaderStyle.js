@@ -14,3 +14,8 @@ export const ButtonIcon = style.button`
   margin: 0px 10px;
   border: none;
 `;
+
+export const HeaderSpacing = style.div`
+  height: 60px;
+  width: 100%;
+`;
