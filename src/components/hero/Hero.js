@@ -1,11 +1,17 @@
 import { HeroStyled } from "./HeroStyle";
 import heroImg from '../../img/hero-image-v2.png';
+import heroImgWide from '../../img/hero-image-wide.png';
 import GradientBtn from "../gradientBtn/GradientBtn";
+import { useMediaQuery } from "../../hooks/useMediaQuery";
 
 const Hero = () => {
+  const isPageWide = useMediaQuery('(min-width: 768px)');
+
+  console.log(isPageWide);
+
   return (
     <HeroStyled>
-      <img src={ heroImg } alt="foto do erickson sorrindo com fundo neon circular" />
+      <img src={isPageWide ? heroImgWide : heroImg } alt="foto do erickson sorrindo com fundo neon circular" />
       <section>
         <h1>
           <span className="code">{'< '}</span>
