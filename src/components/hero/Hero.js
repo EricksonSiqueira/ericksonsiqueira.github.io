@@ -15,7 +15,7 @@ const Hero = () => {
       <section>
         <h1>
           <span className="code">{'< '}</span>
-          Olá, meu nome é <span className="name">Erickson</span>! Sou um desenvolvedor web, apaixonado por tecnologia e desafios. Seja bem vindo ao meu portifólio
+          Olá, meu nome é <span className="name">Erickson</span>! Sou um desenvolvedor web, apaixonado por tecnologia e desafios. Seja bem vindo ao meu portfólio
           <span className="code">{' />'}</span>
         </h1>
         <GradientBtn 
