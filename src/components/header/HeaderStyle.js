@@ -48,7 +48,6 @@ export const HeaderDesktop = styled.header`
   }
 
   div nav {
-    font-family: roboto;
     display: flex;
     justify-content: space-evenly;
     width: 50%;
@@ -57,6 +56,7 @@ export const HeaderDesktop = styled.header`
   div section.social-media {
     display: flex;
     justify-content: space-between;
-    min-width: 120px;
+    gap: 40px;
   }
+
 `;
