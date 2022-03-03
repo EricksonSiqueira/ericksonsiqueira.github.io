@@ -29,8 +29,20 @@ const Header = () => {
               <a href="#">Contato</a>
             </nav>
             <section className="social-media">
-              <img src={githubIcon} alt="icone do github" />
-              <img src={linkedinIcon} alt="icone do linkedin" />
+              <a 
+                href="https://github.com/EricksonSiqueira"
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={githubIcon} alt="icone do github" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/ericksonsiqueira/"
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={linkedinIcon} alt="icone do linkedin" />
+              </a>
             </section>
           </div>
         </HeaderDesktop>
