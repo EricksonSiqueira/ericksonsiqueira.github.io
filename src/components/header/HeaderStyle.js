@@ -43,8 +43,15 @@ export const HeaderDesktop = styled.header`
   }
 
   div a {
+    border-radius: 5px;
+    padding: 10px;
     color: ${props => props.theme.colors.textColor};
     font-size: 24px;
+    transition: all 500ms ease-in-out;
+  }
+  
+  div a:hover {
+    background-color: ${props => props.theme.colors.lightPurple2};
   }
 
   div nav {
