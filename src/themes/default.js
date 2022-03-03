@@ -11,6 +11,7 @@ export default {
     textColor: '#e2e2e2',
     darkPurple: '#110042',
     lightPurple: '#340670',
+    lightPurple2: '#610094',
     greenText: '#15EC1D',
     orangeText: '#CF9A10',
   },
