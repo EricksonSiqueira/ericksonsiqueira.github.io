@@ -1,10 +1,20 @@
 import { createGlobalStyle } from "styled-components"
 
+import Roboto from '../fonts/Roboto.woff';
+
 const GlobalStyles = createGlobalStyle`
+  @font-face {
+    font-family: 'Roboto';
+    src: url(${Roboto}) format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
   }
   html {
     scroll-behavior: smooth;
