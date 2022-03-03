@@ -14,25 +14,29 @@ const Header = () => {
   
   if (isLarge) {
     return (
-      <HeaderDesktop>
-        <div>
-          <img 
-            className="react-icon"
-            src={ reactIcon }
-            alt="icone do react"
-          />
-          <nav>
-            <a href="#">Sobre</a>
-            <a href="#">Projetos</a>
-            <a href="#">Tecnologias</a>
-            <a href="#">Contato</a>
-          </nav>
-          <section className="social-media">
-            <img src={githubIcon} alt="icone do github" />
-            <img src={linkedinIcon} alt="icone do linkedin" />
-          </section>
-        </div>
-      </HeaderDesktop>
+      <>
+        <HeaderDesktop>
+          <div>
+            <img
+              className="react-icon"
+              src={reactIcon}
+              alt="icone do react"
+            />
+            <nav>
+              <a href="#">Sobre</a>
+              <a href="#">Projetos</a>
+              <a href="#">Tecnologias</a>
+              <a href="#">Contato</a>
+            </nav>
+            <section className="social-media">
+              <img src={githubIcon} alt="icone do github" />
+              <img src={linkedinIcon} alt="icone do linkedin" />
+            </section>
+          </div>
+        </HeaderDesktop>
+        <HeaderSpacing />
+      </>
+
     )
   } else {
     return (
