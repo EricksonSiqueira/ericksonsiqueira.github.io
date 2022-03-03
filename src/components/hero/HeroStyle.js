@@ -8,6 +8,9 @@ export const HeroStyled = styled.section`
   align-items:center;
   overflow-x: hidden;
 
+  h1 {
+    font-weight: 400;
+  }
 
   section {
     margin: 0 30px;
