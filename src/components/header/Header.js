@@ -16,7 +16,11 @@ const Header = () => {
     return (
       <HeaderDesktop>
         <div>
-          <img src={reactIcon} alt="icone do react" />
+          <img 
+            className="react-icon"
+            src={ reactIcon }
+            alt="icone do react"
+          />
           <nav>
             <a href="#">Sobre</a>
             <a href="#">Projetos</a>

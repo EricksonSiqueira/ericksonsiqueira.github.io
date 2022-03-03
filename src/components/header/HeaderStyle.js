@@ -24,11 +24,39 @@ export const HeaderSpacing = styled.div`
 export const HeaderDesktop = styled.header`
   width: 100%;
   background: ${props => props.theme.colors.darkPurple};
+  height: 80px;
+  position: fixed;
+  top: 0;
 
   div {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    height: 100%;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  div img.react-icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  div a {
+    color: ${props => props.theme.colors.textColor};
+    font-size: 24px;
+  }
+
+  div nav {
+    font-family: roboto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+
+  div section.social-media {
+    display: flex;
+    justify-content: space-between;
+    min-width: 120px;
   }
 `;
