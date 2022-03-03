@@ -1,13 +1,11 @@
 import { HeroStyled } from "./HeroStyle";
 import heroImg from '../../img/hero-image-v2.png';
-import heroImgWide from '../../img/hero-image-wide.png';
+import heroImgWide from '../../img/hero-image-wide-v2.png';
 import GradientBtn from "../gradientBtn/GradientBtn";
 import { useMediaQuery } from "../../hooks/useMediaQuery";
 
 const Hero = () => {
   const isPageWide = useMediaQuery('(min-width: 768px)');
-
-  console.log(isPageWide);
 
   return (
     <HeroStyled>
