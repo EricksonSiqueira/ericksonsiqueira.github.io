@@ -67,3 +67,28 @@ export const HeaderDesktop = styled.header`
   }
 
 `;
+
+export const Navbar = styled.nav`
+  position: absolute;
+  background-color: ${props => props.theme.colors.lightPurple};
+  width: 220px;
+  height: 100vh;
+  left: ${props => props.showNavbar ? '0px' : '-220px'};
+  transition: all 0.5s ease-in-out;
+  box-shadow: ${props => props.showNavbar && '10px 5px 20px 12px rgba(0,0,0,0.53)'};
+
+  button {
+    background-color: inherit;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 10px;
+    top: 10px;
+    border: none;
+  }
+  button img {
+    width: 100%;
+    height: 100%;
+  }
+
+`;

@@ -1,17 +1,21 @@
-import React from 'react';
-import { HeaderStyled, ButtonIcon, HeaderSpacing, HeaderDesktop } from './HeaderStyle';
+import React, { useState } from 'react';
+import { HeaderStyled, ButtonIcon, HeaderSpacing, HeaderDesktop, Navbar } from './HeaderStyle';
 import menuIcon from '../../img/menu-icon.png'
 import reactIcon from '../../img/react-icon.png'
 import githubIcon from '../../img/github-icon.png';
 import linkedinIcon from '../../img/linkedin-icon.png';
+import closeIcon from '../../img/close-menu-icon.png';
 import { useMediaQuery } from '../../hooks/useMediaQuery';
+// import Navbar from '../navbar/Navbar';
 
 const Header = () => {
 
   const isLarge = useMediaQuery('(min-width: 1024px)');
 
-  console.log(isLarge);
-  
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  console.log(showNavbar);
+
   if (isLarge) {
     return (
       <>
@@ -54,7 +58,15 @@ const Header = () => {
     return (
       <>
         <HeaderStyled>
-          <ButtonIcon>
+          <Navbar
+            showNavbar={ showNavbar }
+          >
+            <button onClick={() => setShowNavbar(false)}>
+              <img src={ closeIcon } alt="X representando fechar" />
+            </button>
+            <div />
+          </Navbar>
+          <ButtonIcon onClick={() => setShowNavbar(true)}>
             <img src={menuIcon} alt="icone de menu" />
           </ButtonIcon>
           <ButtonIcon>
