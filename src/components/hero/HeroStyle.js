@@ -14,10 +14,18 @@ export const HeroStyled = styled.section`
 
   section {
     margin: 0 30px;
-    margin-top: -45px;
+    margin-top: -30px;
     display: flex;
     flex-direction: column;
     align-items:center;
+  }
+
+  img {
+    margin-top: -20px;
+  }
+
+  button {
+    margin-top: 20px;
   }
 
   .code {
@@ -40,13 +48,16 @@ export const HeroStyled = styled.section`
     flex-direction: row;
     max-width: 800px;
     margin: 0 auto;
+    font-size: 20px;
 
     img {
       bottom: 0;
       width: 80vh;
+      margin: 0;
     }
     section {
-      margin-left: -70px;
+      margin-left: -75px;
+      min-width: 300px;
     }
   }
 
