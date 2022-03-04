@@ -68,6 +68,13 @@ export const HeaderDesktop = styled.header`
 
 `;
 
+export const NavLine = styled.div`
+  background-color: white;
+  border:1px solid black;
+  width: 60px;
+`;
+
+
 export const Navbar = styled.nav`
   position: absolute;
   background-color: ${props => props.theme.colors.lightPurple};
@@ -89,6 +96,34 @@ export const Navbar = styled.nav`
   button img {
     width: 100%;
     height: 100%;
+  }
+
+  section.nav-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+    max-width: 80%;
+  }
+
+  section.nav-social {
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 20px;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  section a {
+    display: flex;
+    font-size: 24px;
+    color: ${props => props.theme.colors.textColor};
+    justify-content: flex-start;
+    gap: 20px;
+
   }
 
 `;

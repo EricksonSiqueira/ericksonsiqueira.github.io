@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { HeaderStyled, ButtonIcon, HeaderSpacing, HeaderDesktop, Navbar } from './HeaderStyle';
+import { HeaderStyled, ButtonIcon, HeaderSpacing, HeaderDesktop, Navbar, NavLine } from './HeaderStyle';
 import menuIcon from '../../img/menu-icon.png'
 import reactIcon from '../../img/react-icon.png'
 import githubIcon from '../../img/github-icon.png';
 import linkedinIcon from '../../img/linkedin-icon.png';
 import closeIcon from '../../img/close-menu-icon.png';
 import { useMediaQuery } from '../../hooks/useMediaQuery';
-// import Navbar from '../navbar/Navbar';
+import navData from '../../data/mobileNav';
 
 const Header = () => {
 
@@ -65,7 +65,32 @@ const Header = () => {
             <button onClick={() => setShowNavbar(false)}>
               <img src={ closeIcon } alt="X representando fechar" />
             </button>
-            <div />
+            <section className="nav-items">
+              <NavLine />
+              {navData.map((item) => (
+                <a key={ item.id } href="#">
+                  {item.icon}
+                  <span>{item.text}</span>
+                </a>
+              ))}
+            <NavLine />
+            </section>
+            <section className='nav-social'>
+                              <a
+                href="https://github.com/EricksonSiqueira"
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={githubIcon} alt="icone do github" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ericksonsiqueira/"
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={linkedinIcon} alt="icone do linkedin" />
+              </a>
+            </section>
           </Navbar>
           <ButtonIcon onClick={() => setShowNavbar(true)}>
             <img src={menuIcon} alt="icone de menu" />
