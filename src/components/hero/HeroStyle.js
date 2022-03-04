@@ -89,7 +89,7 @@ export const HeroStyled = styled.section`
 
     section {
       margin-left: -30px;
-      font-size: 28px;
+      font-size: 32px;
     }
 
     h1 {

@@ -27,9 +27,10 @@ const Header = () => {
               alt="icone do react"
             />
             <nav>
+              <a href="#">Home</a>
               <a href="#">Sobre</a>
-              <a href="#">Projetos</a>
               <a href="#">Tecnologias</a>
+              <a href="#">Projetos</a>
               <a href="#">Contato</a>
             </nav>
             <section className="social-media">
