@@ -19,5 +19,6 @@ export const GradientBtnStyled = styled.button`
     background-position: right center; /* change the direction of the change here */
     text-decoration: none;
     border: none;
+    cursor: pointer;
   }
 `;
