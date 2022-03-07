@@ -2,6 +2,22 @@
 
 ### Tarefas
 
+### Figma
+- [x] Projetar Header
+- [x] Projetar navbar mobile
+- [x] Projetar seção Hero mobile
+- [x] Projetar seção Hero desktop
+- [x] Projetar seção Sobre mobile
+- [x] Projetar seção Sobre desktop
+- [ ] Projetar seção Tecnologias mobile
+- [x] Projetar seção Tecnologias desktop
+- [ ] Projetar seção Projetos mobile
+- [ ] Projetar seção Projetos desktop
+- [ ] Projetar seção Contato mobile
+- [ ] Projetar seção Contato desktop
+- [ ] Projetar Footer mobile
+- [ ] Projetar Footer desktop
+
 #### 🛠️ Front-end
 - [x] Implementar Header
 - [x] Implementar navbar mobile
