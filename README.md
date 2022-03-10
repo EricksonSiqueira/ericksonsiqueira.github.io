@@ -1,8 +1,8 @@
 ## Minha página de porfólio
 
-### Tarefas
+### 📝 Tarefas
 
-### Figma
+### 🎀 Figma
 - [x] Projetar Header
 - [x] Projetar navbar mobile
 - [x] Projetar seção Hero mobile
