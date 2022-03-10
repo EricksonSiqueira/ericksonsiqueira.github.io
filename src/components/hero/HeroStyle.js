@@ -9,6 +9,9 @@ export const HeroStyled = styled.section`
   overflow-x: hidden;
 
   h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-weight: 400;
   }
 
@@ -25,14 +28,18 @@ export const HeroStyled = styled.section`
   }
 
   button {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
-  .code {
-    color: ${props => props.theme.colors.orangeText};
+  .hero-txt {
+    color: ${props => props.theme.colors.textColor};
+    font-size: 22px;
   }
-  .name {
-    color: ${props => props.theme.colors.greenText};
+
+  .hero-name {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 10px 0;
   }
 
     @media ${(props) => props.theme.breakpoints.sm} {
@@ -40,29 +47,53 @@ export const HeroStyled = styled.section`
     margin: 0 auto;
 
     img {
-      width: 80vh;
+      width: 70vh;
+    }
+
+    .hero-txt {
+    color: ${props => props.theme.colors.textColor};
+    font-size: 32px;
+    }
+    .hero-name {
+    font-size: 64px;
+    margin: 10px 0;
     }
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    flex-direction: row;
     max-width: 800px;
     margin: 0 auto;
     font-size: 20px;
 
+    h1 {
+      margin-top: -40px;
+    }
+
     img {
-      bottom: 0;
       width: 80vh;
-      margin: 0;
     }
     section {
-      margin-left: -75px;
       min-width: 300px;
+    }
+
+    .hero-txt {
+    color: ${props => props.theme.colors.textColor};
+    font-size: 40px;
+    }
+    .hero-name {
+    font-size: 72px;
+    margin: 10px 0;
+    }
+
+    button {
+      width: 200px;
+      height: 60px;
     }
   }
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    max-width: 1000px;
+    flex-direction: row;
+    max-width: 100vw;
     margin: 0 auto;
     img {
       width: 80vh;
@@ -76,6 +107,20 @@ export const HeroStyled = styled.section`
     button {
       margin-top: 30px;
       font-size: 18px;
+      margin-left: -100px;
+    }
+
+    h1 {
+      align-items: flex-start;
+    }
+
+    .hero-txt {
+    color: ${props => props.theme.colors.textColor};
+    font-size: 32px;
+    }
+    .hero-name {
+    font-size: 64px;
+    margin: 10px 0;
     }
   }
     @media ${(props) => props.theme.breakpoints.xl} {
@@ -97,8 +142,8 @@ export const HeroStyled = styled.section`
     }
 
     button {
-      margin-top: 30px;
-      font-size: 18px;
+      margin-top: 50px;
+      font-size: 20px;
     }
   }
 `;
