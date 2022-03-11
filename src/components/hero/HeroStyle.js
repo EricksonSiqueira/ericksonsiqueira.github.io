@@ -126,7 +126,8 @@ export const HeroStyled = styled.section`
     @media ${(props) => props.theme.breakpoints.xl} {
     flex-direction: row;
     max-width: 1200px;
-    margin: 2% auto;
+    margin: 0 auto;
+    margin-top: 25px;
 
     img {
       width: 80vh;
