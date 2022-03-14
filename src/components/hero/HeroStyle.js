@@ -43,7 +43,6 @@ export const HeroStyled = styled.section`
   }
 
     @media ${(props) => props.theme.breakpoints.sm} {
-    max-width: 600px;
     margin: 0 auto;
 
     img {
@@ -61,7 +60,6 @@ export const HeroStyled = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 800px;
     margin: 0 auto;
     font-size: 20px;
 
@@ -93,7 +91,6 @@ export const HeroStyled = styled.section`
 
   @media ${(props) => props.theme.breakpoints.lg} {
     flex-direction: row;
-    max-width: 100vw;
     margin: 0 auto;
     img {
       width: 80vh;
@@ -125,7 +122,6 @@ export const HeroStyled = styled.section`
   }
     @media ${(props) => props.theme.breakpoints.xl} {
     flex-direction: row;
-    max-width: 1200px;
     margin: 0 auto;
     margin-top: 25px;
 
