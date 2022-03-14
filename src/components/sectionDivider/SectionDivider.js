@@ -3,7 +3,7 @@ import { GradientDivider } from './SectionDividerStyle';
 
 const SectionDivider = () => {
   return (
-    <GradientDivider />
+    <GradientDivider className={'section-divider'}/>
   )
 };
 
