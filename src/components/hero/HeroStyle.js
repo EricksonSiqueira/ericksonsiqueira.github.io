@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const HeroStyled = styled.section`
-  font-size: 18px;
   display: flex;
-  min-height: 80vh;
+  min-height: 60vh;
   flex-direction: column;
   align-items:center;
   overflow-x: hidden;
@@ -16,7 +15,6 @@ export const HeroStyled = styled.section`
   }
 
   section {
-    margin: 0 30px;
     margin-top: -30px;
     display: flex;
     flex-direction: column;
