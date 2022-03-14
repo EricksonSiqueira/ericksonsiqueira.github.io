@@ -1,16 +1,16 @@
 import Header from './components/header/Header';
 import Theme from './styles/theme';
 import Hero from './components/hero/Hero';
-import SectionDivider from './components/sectionDivider/SectionDivider';
 import { Wrapper } from './AppStyle';
+import About from './components/about/About';
 function App() {
   return (
     <div className="App">
       <Theme>
         <Header />
         <Wrapper>
-        <Hero />
-        <SectionDivider />
+          <Hero />
+          <About />
         </Wrapper>
       </Theme>
     </div>
