@@ -1,4 +1,78 @@
-## Minha página de porfólio
+# Minha página de porfólio
+
+Seja muito bem vindo ao projeto da minha página de portfólio!
+
+## 🚧Estamos em obra🚧
+
+Neste momento o site ainda está em desenvolvimento! 
+
+Estou utilizando `React`, com `React Hooks` e `styled-components` para implementar o site!
+
+Caso queira instalar e ver como está ficando o código do projeto, realize os seguintes passos
+
+
+```bash
+git clone git@github.com:EricksonSiqueira/ericksonsiqueira.github.io.git
+
+cd ericksonsiqueira.github.io.git
+
+npm install
+
+npm start
+````
+Agora é só abrir o seu navegador e  a página deve estar lá na URL `http://localhost:3000/`
+
+## 😊 A cara atual do site
+
+  <img display="inline" width="68%"  src="./readme-midias/site.png"/>
+  <img display="inline" width="30%" src="./readme-midias/site-cel.png"/>
+
+---
+
+## 🧪 Teste você mesmo!
+O deploy do site foi feito no proprio GitHub, basta acessar https://ericksonsiqueira.github.io/ e dar uma olhadinha!
+
+Caso encontre algum erro ou tenha alguma sugestão de melhoria, sinta-se à vontade para abrir uma `issue` ou até mesmo falar comigo no meu [Linkedin](https://www.linkedin.com/in/ericksonsiqueira/) , sua ajuda é sempre muito bem vinda! 😸
+
+## 🎀 Acompanhe o desenvolvimento dos estilos do site no figma!
+https://www.figma.com/file/B5I1cfSynXb3VksbRrpGMY/Portifolio?node-id=0%3A1
+
+---
+
+### 📝 Progresso
+
+### 🎀 Figma
+- [x] Projetar Header
+- [x] Projetar navbar mobile
+- [x] Projetar seção Hero mobile
+- [x] Projetar seção Hero desktop
+- [x] Projetar seção Sobre mobile
+- [x] Projetar seção Sobre desktop
+- [ ] Projetar seção Tecnologias mobile
+- [x] Projetar seção Tecnologias desktop
+- [ ] Projetar seção Projetos mobile
+- [ ] Projetar seção Projetos desktop
+- [ ] Projetar seção Contato mobile
+- [ ] Projetar seção Contato desktop
+- [ ] Projetar Footer mobile
+- [ ] Projetar Footer desktop
+
+#### 🛠️ Front-end
+- [x] Implementar Header
+- [x] Implementar navbar mobile
+- [x] Implementar seção Hero mobile
+- [x] Implementar seção Hero desktop
+- [ ] Implementar seção Sobre mobile
+- [ ] Implementar seção Sobre desktop
+- [ ] Implementar seção Tecnologias mobile
+- [ ] Implementar seção Tecnologias desktop
+- [ ] Implementar seção Projetos mobile
+- [ ] Implementar seção Projetos desktop
+- [ ] Implementar seção Contato mobile
+- [ ] Implementar seção Contato desktop
+- [ ] Implementar Footer mobile
+- [ ] Implementar Footer desktop
+
 
 ### 📝 Tarefas
 
