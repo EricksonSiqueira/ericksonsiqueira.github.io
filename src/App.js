@@ -1,12 +1,19 @@
-import { Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
+import Header from './components/header/Header';
+import Theme from './styles/theme';
+import Hero from './components/hero/Hero';
+import { Wrapper } from './AppStyle';
+import About from './components/about/About';
 function App() {
   return (
-    <Switch>
-      <Route exact path="/" component={ Home } />
-      <Route exact path="/portfolio" component={ Portfolio } />
-    </Switch>
+    <div className="App">
+      <Theme>
+        <Header />
+        <Wrapper>
+          <Hero />
+          <About />
+        </Wrapper>
+      </Theme>
+    </div>
   );
 }
 
