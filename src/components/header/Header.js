@@ -68,7 +68,7 @@ const Header = () => {
             <section className="nav-items">
               <NavLine />
               {navData.map((item) => (
-                <a key={ item.id } href="#">
+                <a key={ item.id } href="#home">
                   {item.icon}
                   <span>{item.text}</span>
                 </a>
