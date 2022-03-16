@@ -24,9 +24,12 @@ Agora é só abrir o seu navegador e  a página deve estar lá na URL `http://lo
 
 ## 😊 A cara atual do site
 
-  <img display="inline" width="68%"  src="./readme-midias/site.png"/>
-  <img display="inline" width="30%" src="./readme-midias/site-cel.png"/>
-
+<section style="width: 1200px">
+  <div style="display: flex">
+    <img src="./readme-midias/site.png" alt="Login page" width="70%">
+    <img src="./readme-midias/site-cel.png" alt="Project running gif" width="28%" >
+  </div>
+</section>
 ---
 
 ## 🧪 Teste você mesmo!
