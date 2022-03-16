@@ -128,7 +128,7 @@ export const HeroStyled = styled.section`
     }
 
     section {
-      margin-left: -30px;
+      margin-left: -50px;
       font-size: 32px;
     }
 
