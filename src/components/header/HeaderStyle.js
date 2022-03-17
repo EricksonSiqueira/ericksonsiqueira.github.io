@@ -104,16 +104,14 @@ export const Navbar = styled.nav`
     justify-content: space-evenly;
     height: 500px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 30px;
     max-width: 80%;
   }
 
   section.nav-social {
-    position: absolute;
     display: flex;
-    bottom: 20px;
-    left: 20px;
     justify-content: flex-start;
+    margin-left: 20px;
     gap: 20px;
   }
 
