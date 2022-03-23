@@ -7,14 +7,14 @@ export const HeroStyled = styled.section`
   align-items:center;
   overflow-x: hidden;
 
-  h1 {
+  section {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: 400;
   }
 
-  section {
+  article {
     margin-top: -30px;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@ export const HeroStyled = styled.section`
     img {
       width: 80vh;
     }
-    section {
+    article {
       min-width: 300px;
     }
 
@@ -94,7 +94,7 @@ export const HeroStyled = styled.section`
       width: 80vh;
     }
     
-    section {
+    article {
       margin-left: 0px;
       font-size: 22px;
     }
@@ -127,7 +127,7 @@ export const HeroStyled = styled.section`
       width: 80vh;
     }
 
-    section {
+    article {
       margin-left: -50px;
       font-size: 32px;
     }
