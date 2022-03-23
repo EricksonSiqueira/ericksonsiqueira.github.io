@@ -42,11 +42,5 @@ describe('Header', () => {
   });
 
   describe('social media section', () => {
-    it('has link with text "Contato"', () => {
-      render(<App />)
-      const link = screen.getByRole('link', { name: /Contato/ });
-      expect(link).toBeInTheDocument();
-      expect(link).toHaveAttribute('href', '#contact');
-    });
   });
 });
