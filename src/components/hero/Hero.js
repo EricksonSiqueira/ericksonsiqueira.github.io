@@ -11,19 +11,19 @@ const Hero = () => {
   return (
     <HeroStyled>
       <img src={isPageWide ? heroImgWide : heroImg } alt="foto do erickson sorrindo com fundo neon circular" />
-      <section>
-        <h1>
+      <article>
+        <section>
           <p className="hero-txt">Olá mundo, eu sou</p>
           <GradientText 
             text={'Erickson Siqueira'} 
             classes='hero-name'
           />
           <p className="hero-txt">Desenvolvedor web front-end</p>
-        </h1>
+        </section>
         <GradientBtn 
           text={'Saiba mais'} 
         />
-      </section>
+      </article>
     </HeroStyled>
   )
 }
