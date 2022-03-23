@@ -5,7 +5,7 @@ import SectionDivider from '../sectionDivider/SectionDivider';
 
 const About = () => {
   return(
-    <AboutStyled id={'about'}>
+    <AboutStyled id="about">
       <SectionDivider />
       <GradientHead text={'Sobre'} classes={'about-heading'}/>
       <section className={'about-txt'}>
