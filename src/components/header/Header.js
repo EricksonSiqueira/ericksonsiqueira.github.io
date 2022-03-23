@@ -14,8 +14,6 @@ const Header = () => {
 
   const [showNavbar, setShowNavbar] = useState(false);
 
-  console.log(showNavbar);
-
   if (isLarge) {
     return (
       <>
@@ -51,7 +49,7 @@ const Header = () => {
             </section>
           </div>
         </HeaderDesktop>
-        <HeaderSpacing />
+        <HeaderSpacing id="home"/>
       </>
 
     )
@@ -68,7 +66,7 @@ const Header = () => {
             <section className="nav-items">
               <NavLine />
               {navData.map((item) => (
-                <a key={ item.id } href="#home">
+                <a key={ item.id } href={item.href}>
                   {item.icon}
                   <span>{item.text}</span>
                 </a>
@@ -99,7 +97,7 @@ const Header = () => {
             <img src={reactIcon} alt="icone do react" />
           </ButtonIcon>
         </HeaderStyled>
-        <HeaderSpacing />
+        <HeaderSpacing id="home"/>
       </>
     );
   }
