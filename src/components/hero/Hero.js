@@ -25,7 +25,7 @@ const Hero = () => {
         />
       </article>
     </HeroStyled>
-  )
+  );
 }
 
 export default Hero;
