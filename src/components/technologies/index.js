@@ -7,7 +7,7 @@ import TechData from '../../data/techs';
 
 const Technologies = () => {
   return (
-    <StyledTechnologies>
+    <StyledTechnologies className="section-spacing">
       <SectionDivider />
       <GradientText text={'Tecnologias'} classes={'tech-heading'}/>
       <section>
