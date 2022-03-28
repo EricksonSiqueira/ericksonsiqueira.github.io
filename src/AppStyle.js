@@ -14,6 +14,12 @@ export const Wrapper = styled.div `
   }
 
   @media ${(props) => props.theme.breakpoints.xl} {
-      max-width: 1200px;
+    max-width: 1200px;
   }
 `
+export const TextSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 0 auto;
+`;
