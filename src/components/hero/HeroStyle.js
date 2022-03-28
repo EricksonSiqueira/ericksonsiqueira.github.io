@@ -4,7 +4,8 @@ export const HeroStyled = styled.section`
   display: flex;
   min-height: 60vh;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
+  justify-content: center;
   overflow-x: hidden;
 
   section {
@@ -18,7 +19,7 @@ export const HeroStyled = styled.section`
     margin-top: -30px;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
   }
 
   img {
@@ -102,7 +103,6 @@ export const HeroStyled = styled.section`
     button {
       margin-top: 30px;
       font-size: 18px;
-      margin-left: -100px;
     }
 
     h1 {

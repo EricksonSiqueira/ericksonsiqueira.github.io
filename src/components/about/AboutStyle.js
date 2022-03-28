@@ -11,11 +11,12 @@ export const AboutStyled = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
     margin-top: 15px;
     gap: 10px;
     font-size: 20px;
+    line-height: 26px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -25,6 +26,7 @@ export const AboutStyled = styled.section`
     }
     section.about-txt {
       font-size: 26px;
+      line-height: 30px;
     }
   }
   @media ${(props) => props.theme.breakpoints.md} {
@@ -36,8 +38,7 @@ export const AboutStyled = styled.section`
       width: 160px;
     }
     section.about-txt {
-      max-width: 90%;
-      font-size: 26px;
+      line-height: 36px;
     }
   }
   @media ${(props) => props.theme.breakpoints.xl} {

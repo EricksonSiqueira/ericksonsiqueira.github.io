@@ -29,7 +29,7 @@ export const HeaderDesktop = styled.header`
   top: 0;
 
   div {
-    max-width: 1200px;
+    max-width: 90vw;
     margin: 0 auto;
     display: flex;
     height: 100%;
