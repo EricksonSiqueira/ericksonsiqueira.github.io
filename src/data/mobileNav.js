@@ -7,27 +7,32 @@ const data = [
   {
     id: 1,
     text: 'Home',
-    icon: <AiIcons.AiFillHome />
+    icon: <AiIcons.AiFillHome />,
+    href: '#home',
   },
   {
     id: 2,
     text: 'Sobre',
-    icon: <BsIcons.BsFillPersonLinesFill />
+    icon: <BsIcons.BsFillPersonLinesFill />,
+    href: '#about',
   },
   {
     id: 3,
     text: 'Tecnologias',
-    icon: <BsIcons.BsStack />
+    icon: <BsIcons.BsStack />,
+    href: '#technologies',
   },
   {
     id: 4,
     text: 'Projetos',
-    icon: <BiIcons.BiDevices />
+    icon: <BiIcons.BiDevices />,
+    href: '#projects',
   },
   {
     id: 5,
     text: 'Contato',
-    icon: <MdIcons.MdEmail />
+    icon: <MdIcons.MdEmail />,
+    href: '#contact',
   }
 ];
 

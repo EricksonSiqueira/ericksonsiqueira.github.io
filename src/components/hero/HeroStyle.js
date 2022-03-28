@@ -4,21 +4,22 @@ export const HeroStyled = styled.section`
   display: flex;
   min-height: 60vh;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
+  justify-content: center;
   overflow-x: hidden;
 
-  h1 {
+  section {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: 400;
   }
 
-  section {
+  article {
     margin-top: -30px;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
   }
 
   img {
@@ -68,7 +69,7 @@ export const HeroStyled = styled.section`
     img {
       width: 80vh;
     }
-    section {
+    article {
       min-width: 300px;
     }
 
@@ -94,7 +95,7 @@ export const HeroStyled = styled.section`
       width: 80vh;
     }
     
-    section {
+    article {
       margin-left: 0px;
       font-size: 22px;
     }
@@ -102,7 +103,6 @@ export const HeroStyled = styled.section`
     button {
       margin-top: 30px;
       font-size: 18px;
-      margin-left: -100px;
     }
 
     h1 {
@@ -127,7 +127,7 @@ export const HeroStyled = styled.section`
       width: 80vh;
     }
 
-    section {
+    article {
       margin-left: -50px;
       font-size: 32px;
     }

@@ -3,10 +3,6 @@ import styled from 'styled-components';
 export const AboutStyled = styled.section`
   margin: 0 auto;
 
-  .section-divider, .about-heading {
-    margin-left: 35px
-  }
-
   .about-heading {
     font-size: 50px;
     width: 130px;
@@ -15,12 +11,12 @@ export const AboutStyled = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 80%;
+    max-width: 95%;
     margin: 0 auto;
     margin-top: 15px;
-    padding-left: 5px;
     gap: 10px;
     font-size: 20px;
+    line-height: 26px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -30,6 +26,7 @@ export const AboutStyled = styled.section`
     }
     section.about-txt {
       font-size: 26px;
+      line-height: 30px;
     }
   }
   @media ${(props) => props.theme.breakpoints.md} {
@@ -41,8 +38,7 @@ export const AboutStyled = styled.section`
       width: 160px;
     }
     section.about-txt {
-      max-width: 90%;
-      font-size: 26px;
+      line-height: 36px;
     }
   }
   @media ${(props) => props.theme.breakpoints.xl} {
