@@ -9,7 +9,7 @@ const Hero = () => {
   const isPageWide = useMediaQuery('(min-width: 1024px)');
 
   return (
-    <HeroStyled>
+    <HeroStyled className='section-spacing'>
       <img src={isPageWide ? heroImgWide : heroImg } alt="foto do erickson sorrindo com fundo neon circular" />
       <article>
         <section>
