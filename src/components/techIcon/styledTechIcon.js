@@ -15,7 +15,7 @@ export default styled.span`
   &:hover {
     /* background-color: ${(props) => props.theme.colors.lightPurple}; */
     /* border: 5px solid ${(props) => props.theme.colors.lightPurple}; */
-    color: #19BBF3;
+    color: ${(props) => props.theme.colors.hoverTech}
   }
 
   .icon p {

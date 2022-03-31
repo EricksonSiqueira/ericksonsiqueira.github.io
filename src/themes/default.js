@@ -14,6 +14,7 @@ export default {
     lightPurple2: '#610094',
     greenText: '#15EC1D',
     orangeText: '#CF9A10',
+    hoverTech: '#19BBF3',
   },
   // Breakpoints for responsive design
   breakpoints: {
