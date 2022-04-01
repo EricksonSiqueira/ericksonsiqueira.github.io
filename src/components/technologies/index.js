@@ -13,6 +13,7 @@ const Technologies = () => {
       <section>
         {TechData.map((tech) => (
           <TechIcon
+            key={tech.text}
             id={tech.text}
             text={tech.text}
             Icon={tech.Icon}
