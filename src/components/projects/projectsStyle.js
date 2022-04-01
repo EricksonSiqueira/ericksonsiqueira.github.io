@@ -4,18 +4,25 @@ export const StyledProjects = styled.section`
 
   section.cards {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
 
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 
-    row-gap: 50px;
+    overflow-x: auto;
+
+    padding-bottom: 30px;
   }
 
   .tech-heading {
     font-size: 50px;
     width: 190px;
+  }
+
+  .icon {
+    font-size: 25px;
   }
 `;
