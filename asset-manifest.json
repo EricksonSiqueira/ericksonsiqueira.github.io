@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.5e797e3c.js",
+    "main.js": "/static/js/main.ed75207d.js",
     "static/media/hero-image-wide-v2.png": "/static/media/hero-image-wide-v2.691c530df4a520d98405.png",
     "static/media/hero-image-v2.png": "/static/media/hero-image-v2.92d114f3197716bc764f.png",
     "static/media/Roboto.woff": "/static/media/Roboto.1c9c3df25d1a9861f401.woff",
+    "static/media/chef-pedia.png": "/static/media/chef-pedia.eff24fd76afe9f35963c.png",
+    "static/media/portfolio.png": "/static/media/portfolio.e3a92a6a5889e3a1538f.png",
+    "static/media/tryunfo.png": "/static/media/tryunfo.3a9e1b5f5bbb5c9717e8.png",
     "index.html": "/index.html",
-    "main.5e797e3c.js.map": "/static/js/main.5e797e3c.js.map"
+    "main.ed75207d.js.map": "/static/js/main.ed75207d.js.map"
   },
   "entrypoints": [
-    "static/js/main.5e797e3c.js"
+    "static/js/main.ed75207d.js"
   ]
 }
