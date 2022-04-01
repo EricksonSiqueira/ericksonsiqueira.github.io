@@ -14,6 +14,9 @@ export const ProjectCardStyled = styled.article`
   width: 300px;
   height: 420px;
 
+  box-shadow: 0px 8px 20px 5px #030303;
+
+
   section.techs {
     margin-top: 10px;
     width: 100%;
@@ -53,10 +56,11 @@ export const TechSpan = styled.span`
 
 export const Link = styled.a`
   height: 50px;
-  width: 100px;
+  width: 120px;
   border-radius: 10px;
 
   font-size: 18px;
+  font-weight: bold;
 
   color: #000;
   background-color: ${(props) => props.theme.colors.hoverTech};
@@ -64,6 +68,16 @@ export const Link = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 8px;
 
   box-shadow: 0px 8px 10px 0px #1C1818;
+
+  transition: all 200ms ease-in-out;
+
+
+  &:hover {
+    transform: translateY(calc( -3px - 3%));
+    /* background-color: #21d8fc; */
+    box-shadow: 0px 12px 10px 2px #1C1818;
+  }
 `;
