@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const GradientBtnStyled = styled.button`
   font-size: 16px;
-  background-image: linear-gradient(to right, rgba(64,26,172,1) 0%, rgba(138, 54, 255, 1)  51%, rgba(59,33,134,1)  100%);
+  background: rgb(136,70,219);
+  background: linear-gradient(90deg, rgba(136,70,219,1) 0%, rgba(13,198,243,1) 100%);
   margin: 10px;
   margin-top: 15px;
   padding: 15px 45px;

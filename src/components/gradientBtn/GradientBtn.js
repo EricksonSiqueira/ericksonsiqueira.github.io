@@ -1,7 +1,7 @@
 import { GradientBtnStyled } from "./GradientBtnStyle";
-const GradientBtn = ({text}) => {
+const GradientBtn = ({text, onClickFunc}) => {
   return (
-    <GradientBtnStyled>
+    <GradientBtnStyled onClick={ onClickFunc }>
       {text}
     </GradientBtnStyled>
   )

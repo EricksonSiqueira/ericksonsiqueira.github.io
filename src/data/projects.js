@@ -11,7 +11,7 @@ const projects = [
   },
   {
     image: portfolioImg,
-    technologies: ['#ReactJs', '#React Hooks', 'Styled components'],
+    technologies: ['#ReactJs', '#React Hooks', 'Styled components', '#RTL'],
     githubLink: 'https://github.com/EricksonSiqueira/ericksonsiqueira.github.io',
     deployLink: 'https://ericksonsiqueira.github.io/',
   },
