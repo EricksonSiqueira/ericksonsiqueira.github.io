@@ -5,6 +5,7 @@ import { Wrapper, TextSection } from './AppStyle';
 import About from './components/about/About';
 import Technologies from './components/technologies';
 import Projects from './components/projects';
+import Contact from './components/contact';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
             <About />
             <Technologies />
             <Projects />
+            <Contact />
           </TextSection>
         </Wrapper>
       </Theme>
