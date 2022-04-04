@@ -17,12 +17,12 @@ jobs:
         run: |
           npm install
           npm run build
+        env:
+          REACT_APP_USER_ID: ${{ secrets.REACT_APP_USER_ID }}
+          REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
+          REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
-        env:
-            REACT_APP_USER_ID: ${{ secrets.REACT_APP_USER_ID }}
-            REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
-            REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
