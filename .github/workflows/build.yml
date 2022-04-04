@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+        env:
+            REACT_APP_USER_ID: ${{secrets.REACT_APP_USER_ID}}
+            REACT_APP_TEMPLATE_ID: ${{secrets.REACT_APP_TEMPLATE_ID}}
+            REACT_APP_SERVICE_ID: ${{secrets.REACT_APP_SERVICE_ID}}
       - uses: actions/setup-node@v1
         with:
           node-version: '14.x'
