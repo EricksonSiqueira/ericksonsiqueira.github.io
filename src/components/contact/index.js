@@ -22,8 +22,6 @@ const Contact = () => {
 
   const [toSend, setToSend] = useState(TO_SEND_INITIAL_STATE);
 
-  console.log(SERVICE_ID, TEMPLATE_ID, USER_ID);
-
   const sendForm = (event) => {
     event.preventDefault();
     send(
@@ -37,7 +35,7 @@ const Contact = () => {
         console.log(response.status, response.text);
       })
       .catch((err) => {
-        window.alert('FAILED...');
+        window.alert(`Falou ${':('}  ...`);
         console.log(err);
       });
 
