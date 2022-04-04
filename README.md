@@ -53,10 +53,10 @@ https://www.figma.com/file/B5I1cfSynXb3VksbRrpGMY/Portifolio?node-id=0%3A1
 - [x] Projetar seção Sobre desktop
 - [x] Projetar seção Tecnologias mobile
 - [x] Projetar seção Tecnologias desktop
-- [ ] Projetar seção Projetos mobile
-- [ ] Projetar seção Projetos desktop
-- [ ] Projetar seção Contato mobile
-- [ ] Projetar seção Contato desktop
+- [x] Projetar seção Projetos mobile
+- [x] Projetar seção Projetos desktop
+- [x] Projetar seção Contato mobile
+- [x] Projetar seção Contato desktop
 - [ ] Projetar Footer mobile
 - [ ] Projetar Footer desktop
 
@@ -69,10 +69,10 @@ https://www.figma.com/file/B5I1cfSynXb3VksbRrpGMY/Portifolio?node-id=0%3A1
 - [x] Implementar seção Sobre desktop
 - [x] Implementar seção Tecnologias mobile
 - [x] Implementar seção Tecnologias desktop
-- [ ] Implementar seção Projetos mobile
-- [ ] Implementar seção Projetos desktop
-- [ ] Implementar seção Contato mobile
-- [ ] Implementar seção Contato desktop
+- [x] Implementar seção Projetos mobile
+- [x] Implementar seção Projetos desktop
+- [x] Implementar seção Contato mobile
+- [x] Implementar seção Contato desktop
 - [ ] Implementar Footer mobile
 - [ ] Implementar Footer desktop
 
