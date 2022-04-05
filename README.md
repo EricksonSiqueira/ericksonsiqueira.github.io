@@ -73,8 +73,8 @@ https://www.figma.com/file/B5I1cfSynXb3VksbRrpGMY/Portifolio?node-id=0%3A1
 - [x] Implementar seção Projetos desktop
 - [x] Implementar seção Contato mobile
 - [x] Implementar seção Contato desktop
-- [ ] Implementar Footer mobile
-- [ ] Implementar Footer desktop
+- [x] Implementar Footer mobile
+- [x] Implementar Footer desktop
 
 ### 🧪 Testes
 - [x] Header
