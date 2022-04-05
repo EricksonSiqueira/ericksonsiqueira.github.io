@@ -1,11 +1,11 @@
 import { createGlobalStyle } from "styled-components"
 
-import Roboto from '../fonts/Roboto.woff';
+import RobotoWoff2 from './fonts/Roboto.woff2';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'Roboto';
-    src: url(${Roboto}) format('woff');
+    src: url(${RobotoWoff2}) format('woff2');
     font-weight: 400;
     font-style: normal;
   }
