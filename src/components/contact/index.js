@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { StyledContact } from './ContactStyle';
 import GradientText from '../gradientText/GradientText';
 import SectionDivider from '../sectionDivider/SectionDivider';
 import GradientBtn from '../gradientBtn/GradientBtn';
 import { send } from 'emailjs-com';
+import validateEmail from '../../utils/emailValidation';
 
 const Contact = () => {
-  // const [name, setName] = useState('');
-  // const [email, setEmail] = useState('');
-  // const [message, setMessage] = useState('');
 
   const TO_SEND_INITIAL_STATE = {
     name: '',
@@ -21,6 +19,21 @@ const Contact = () => {
   const USER_ID = process.env.REACT_APP_USER_ID || 'zmhHZ8hEk4X1dHrHJ';
 
   const [toSend, setToSend] = useState(TO_SEND_INITIAL_STATE);
+
+  const [validForm, setValidForm] = useState(false);
+
+  useEffect(() => {
+    const validateForm = () => {
+      const {name, email, message} = toSend;
+
+      const isNameValid = name.length > 2;
+      const isEmailValid = !!validateEmail(email);
+      const isMessageValid = message.length >= 10;
+
+      setValidForm(isNameValid && isEmailValid && isMessageValid);
+    }
+    validateForm();
+  }, [toSend]);
 
   const sendForm = (event) => {
     event.preventDefault();
@@ -81,7 +94,7 @@ const Contact = () => {
             placeholder="mensagem"
           />
         </label>
-        <GradientBtn text={'Enviar'} onClickFunc={ sendForm }/>
+        <GradientBtn text={'Enviar'} onClickFunc={ sendForm } disabled={ !validForm }/>
       </form>
     </StyledContact>
   );

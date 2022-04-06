@@ -1,7 +1,11 @@
 import { GradientBtnStyled } from "./GradientBtnStyle";
-const GradientBtn = ({text, onClickFunc}) => {
+const GradientBtn = ({text, onClickFunc, disabled}) => {
   return (
-    <GradientBtnStyled onClick={ onClickFunc }>
+    <GradientBtnStyled 
+      onClick={ onClickFunc } 
+      disabled={ disabled }
+      className={ disabled ? 'disabled' : '' }
+    >
       {text}
     </GradientBtnStyled>
   )
