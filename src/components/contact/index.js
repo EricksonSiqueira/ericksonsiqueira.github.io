@@ -35,7 +35,7 @@ const Contact = () => {
     setEmailSpanText(spanText);
     setTimeout(() => {
       setEmailStatus('none');
-    }, 2500);
+    }, 5000);
   }
 
   useEffect(() => {
