@@ -22,6 +22,12 @@ npm start
 ````
 Agora é só abrir o seu navegador e  a página deve estar lá na URL `http://localhost:3000/`
 
+---
+🧪 Para rodar os testes do site utilize o seguinte código
+```bash
+npm run test
+```
+
 ## 😊 A cara atual do site
 
 <section style="width: 1200px">
