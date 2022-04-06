@@ -18,6 +18,7 @@ const Projects = () => {
             technologies={project.technologies}
             githubLink={project.githubLink}
             deployLink={project.deployLink}
+            description={project.description}
           />
         ))}
       </section>

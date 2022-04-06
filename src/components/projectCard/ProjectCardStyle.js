@@ -12,7 +12,7 @@ export const ProjectCardStyled = styled.article`
   //rgba(25, 187, 243, 0.30)
   border-radius: 5px;
   width: 300px;
-  height: 420px;
+  height: 500px;
 
   box-shadow: 0px 8px 20px 5px #030303;
 
@@ -28,7 +28,6 @@ export const ProjectCardStyled = styled.article`
   }
 
   section.links {
-    margin-top: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -39,6 +38,20 @@ export const ProjectCardStyled = styled.article`
   img {
     border-radius: inherit;
   }
+
+  article {
+    height: 130px;
+    text-align: center;
+    color: ${(prop) => prop.theme.colors.textColor};
+    font-size: 17px;
+
+    margin: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 `
 
 export const TechSpan = styled.span`
