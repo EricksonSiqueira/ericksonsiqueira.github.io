@@ -20,9 +20,15 @@ const Hero = () => {
           />
           <p className="hero-txt">Desenvolvedor web front-end</p>
         </section>
-        <GradientBtn 
-          text={'Saiba mais'} 
-        />
+        <a
+          href="https://www.linkedin.com/in/ericksonsiqueira/"
+          target='_blank'
+          rel='noreferrer'
+        >
+          <GradientBtn 
+            text={'Saiba mais'} 
+          />
+        </a>
       </article>
     </HeroStyled>
   );
