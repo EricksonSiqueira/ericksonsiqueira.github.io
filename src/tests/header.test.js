@@ -34,13 +34,25 @@ describe('Header', () => {
     });
 
     it('"Contato"', () => {
-      render(<App />)
+      render(<App />);
       const link = screen.getByRole('link', { name: /Contato/ });
       expect(link).toBeInTheDocument();
       expect(link).toHaveAttribute('href', '#contact');
     });
   });
 
-  describe('social media section', () => {
+  describe('social media section links have the rigth href to', () => {
+    it('GitHub page', () => {
+      render(<App />);
+      const link = screen.getByTestId('header-github-link');
+      expect(link).toBeInTheDocument();
+      expect(link).toHaveAttribute('href', 'https://github.com/EricksonSiqueira')
+    });
+    it('Linkedin page', () => {
+      render(<App />);
+      const link = screen.getByTestId('header-linkedin-link');
+      expect(link).toBeInTheDocument();
+      expect(link).toHaveAttribute('href', 'https://www.linkedin.com/in/ericksonsiqueira/');
+    });
   });
 });
