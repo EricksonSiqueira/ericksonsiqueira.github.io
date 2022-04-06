@@ -19,11 +19,13 @@ const Header = () => {
       <>
         <HeaderDesktop>
           <div>
-            <img
-              className="react-icon"
-              src={reactIcon}
-              alt="icone do react"
-            />
+            <a href="#home" className="logo">
+              <img
+                className="react-icon"
+                src={reactIcon}
+                alt="icone do react"
+              />
+            </a>
             <nav>
               <a href="#home">Home</a>
               <a href="#about">Sobre</a>
