@@ -61,4 +61,22 @@ export const StyledContact = styled.section`
     width: 190px;
   }
 
+  /* img.email-status {
+    position: fixed;
+    bottom: -60px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+  } */
+
+  span.email-status {
+    text-align: center;
+    font-size: 22px;
+  }
+
 `;

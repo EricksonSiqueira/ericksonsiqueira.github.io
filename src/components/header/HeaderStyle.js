@@ -54,6 +54,10 @@ export const HeaderDesktop = styled.header`
     background-color: ${props => props.theme.colors.lightPurple2};
   }
 
+  div a.logo:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
   div nav {
     display: flex;
     justify-content: space-evenly;

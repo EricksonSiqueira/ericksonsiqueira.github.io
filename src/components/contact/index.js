@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { StyledContact } from './ContactStyle';
 import GradientText from '../gradientText/GradientText';
 import SectionDivider from '../sectionDivider/SectionDivider';
 import GradientBtn from '../gradientBtn/GradientBtn';
 import { send } from 'emailjs-com';
+import validateEmail from '../../utils/emailValidation';
+// import checkGif from '../../img/check-gif.gif';
+// import checkGif from '../../img/check-2.gif';
 
 const Contact = () => {
-  // const [name, setName] = useState('');
-  // const [email, setEmail] = useState('');
-  // const [message, setMessage] = useState('');
 
   const TO_SEND_INITIAL_STATE = {
     name: '',
@@ -22,6 +22,35 @@ const Contact = () => {
 
   const [toSend, setToSend] = useState(TO_SEND_INITIAL_STATE);
 
+  const [validForm, setValidForm] = useState(false);
+
+  const [emailStatus, setEmailStatus] = useState('none');
+  const [emailSpanText, setEmailSpanText] = useState({
+    p1: '',
+    p2: '',
+  });
+
+  const emailSent = (newEmailStatus, spanText) => {
+    setEmailStatus(newEmailStatus);
+    setEmailSpanText(spanText);
+    setTimeout(() => {
+      setEmailStatus('none');
+    }, 2500);
+  }
+
+  useEffect(() => {
+    const validateForm = () => {
+      const {name, email, message} = toSend;
+
+      const isNameValid = name.length > 2;
+      const isEmailValid = !!validateEmail(email);
+      const isMessageValid = message.length >= 10;
+
+      setValidForm(isNameValid && isEmailValid && isMessageValid);
+    }
+    validateForm();
+  }, [toSend]);
+
   const sendForm = (event) => {
     event.preventDefault();
     send(
@@ -31,15 +60,14 @@ const Contact = () => {
       USER_ID,
     )
       .then((response) => {
-        window.alert('Enviado!');
+        emailSent('sucess', { p1: 'Enviado com sucesso! ✔️', p2: 'Muito brigado pelo contato! 😊'});
+        setToSend(TO_SEND_INITIAL_STATE);
         console.log(response.status, response.text);
       })
       .catch((err) => {
-        window.alert(`Falou ${':('}  ...`);
+        emailSent('failed', { p1: 'Falha ao enviar o email! ❌', p2: 'Tente novamente 🥺' })
         console.log(err);
       });
-
-    setToSend(TO_SEND_INITIAL_STATE);
   }
 
   const handleChange = (e) => {
@@ -81,7 +109,14 @@ const Contact = () => {
             placeholder="mensagem"
           />
         </label>
-        <GradientBtn text={'Enviar'} onClickFunc={ sendForm }/>
+        <GradientBtn text={'Enviar'} onClickFunc={ sendForm } disabled={ !validForm }/>
+        { emailStatus !== 'none' && 
+          // <img className='email-status' src={ checkGif } alt="check animation" />
+          <span className='email-status'>
+            <p>{emailSpanText.p1}</p>
+            <p>{emailSpanText.p2}</p>
+          </span>
+        }
       </form>
     </StyledContact>
   );
