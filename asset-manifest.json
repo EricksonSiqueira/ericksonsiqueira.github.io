@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.bcba7190.js",
+    "main.js": "/static/js/main.6d41dc66.js",
     "static/media/hero-image-wide-v2.png": "/static/media/hero-image-wide-v2.691c530df4a520d98405.png",
     "static/media/hero-image-v2.png": "/static/media/hero-image-v2.92d114f3197716bc764f.png",
     "static/media/chef-pedia.png": "/static/media/chef-pedia.eff24fd76afe9f35963c.png",
@@ -8,9 +8,9 @@
     "static/media/portfolio.png": "/static/media/portfolio.e3a92a6a5889e3a1538f.png",
     "static/media/tryunfo.png": "/static/media/tryunfo.3a9e1b5f5bbb5c9717e8.png",
     "index.html": "/index.html",
-    "main.bcba7190.js.map": "/static/js/main.bcba7190.js.map"
+    "main.6d41dc66.js.map": "/static/js/main.6d41dc66.js.map"
   },
   "entrypoints": [
-    "static/js/main.bcba7190.js"
+    "static/js/main.6d41dc66.js"
   ]
 }
