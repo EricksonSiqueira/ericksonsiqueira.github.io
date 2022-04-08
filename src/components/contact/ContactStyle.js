@@ -17,6 +17,8 @@ export const StyledContact = styled.section`
     align-items: center;
     justify-content: center;
 
+    position: relative;
+
     background: rgb(136,70,219);
     background: linear-gradient(90deg, rgba(136,70,219,1) 0%, rgba(13,198,243,1) 100%);
     padding: 2px;
@@ -54,6 +56,7 @@ export const StyledContact = styled.section`
     max-width: 600px;
     width: 50vw;
     border-radius: 5px;
+    margin-top: 30px;
   }
 
   .contact-heading {
@@ -77,6 +80,33 @@ export const StyledContact = styled.section`
   span.email-status {
     text-align: center;
     font-size: 22px;
+  }
+
+  span.form-span {
+    position: absolute;
+    font-size: 16px;
+    left: 10px;
+    bottom: -30px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: ${(props) => props.theme.colors.lightPurple2};
+
+    transform: all 1s ease-in;
+    z-index: 1;
+  }
+
+  span.span-text-area {
+    bottom: -50px;
+  }
+
+  @media screen and (min-width: 400px) {
+    span.span-text-area {
+      bottom: -30px;
+    }
+
+    button {
+      margin-top: 10px;
+    }
   }
 
 `;
