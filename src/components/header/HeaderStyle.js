@@ -81,6 +81,7 @@ export const NavLine = styled.div`
 
 export const Navbar = styled.nav`
   position: absolute;
+  
   background-color: ${props => props.theme.colors.lightPurple};
   width: 220px;
   height: 100vh;

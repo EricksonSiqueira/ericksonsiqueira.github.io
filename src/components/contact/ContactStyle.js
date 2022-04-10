@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledContact = styled.section`
+  
 
   form {
     display: flex;
@@ -16,8 +17,6 @@ export const StyledContact = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-
-    position: relative;
 
     background: rgb(136,70,219);
     background: linear-gradient(90deg, rgba(136,70,219,1) 0%, rgba(13,198,243,1) 100%);
@@ -56,7 +55,7 @@ export const StyledContact = styled.section`
     max-width: 600px;
     width: 50vw;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .contact-heading {
@@ -83,16 +82,13 @@ export const StyledContact = styled.section`
   }
 
   span.form-span {
-    position: absolute;
-    font-size: 16px;
-    left: 10px;
-    bottom: -30px;
+    font-size: 14px;
+    margin-top: -30px;
     padding: 5px;
     border-radius: 5px;
     background-color: ${(props) => props.theme.colors.lightPurple2};
 
     transform: all 1s ease-in;
-    z-index: 1;
   }
 
   span.span-text-area {
@@ -100,13 +96,10 @@ export const StyledContact = styled.section`
   }
 
   @media screen and (min-width: 400px) {
-    span.span-text-area {
-      bottom: -30px;
+    span.form-span {
+      font-size: 18px;
     }
 
-    button {
-      margin-top: 10px;
-    }
   }
 
 `;
