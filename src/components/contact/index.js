@@ -35,7 +35,7 @@ const Contact = () => {
 
   const errorMessage = {
     name: 'Nome deve ter 3 ou mais caracteres',
-    email: 'email@exemplo.com',
+    email: 'exemplo@exemplo.com',
     message: 'Mensagem deve ter 10 ou mais caracteres',
   }
 
@@ -92,7 +92,9 @@ const Contact = () => {
       <SectionDivider />
       <GradientText text="Contato" classes="contact-heading"/>
       <form>
-        <label htmlFor="name-input">
+        <label 
+          htmlFor="name-input"
+          >
           <input 
             type="text"
             name="name"
@@ -103,8 +105,8 @@ const Contact = () => {
             onBlur= { () => setErrorSpan(false) }
             placeholder="nome"
           />
-          {errorSpan.name && <span className='form-span'>{errorMessage.name}</span>}
         </label>
+          {errorSpan.name && <span className='form-span'>{errorMessage.name}</span>}
         <label htmlFor="email-input">
           <input 
             type="text"
@@ -116,8 +118,8 @@ const Contact = () => {
             onBlur={ () => setErrorSpan(false) }
             placeholder="email"
           />
-          {errorSpan.email && <span className='form-span'>{errorMessage.email}</span>}
         </label>
+          {errorSpan.email && <span className='form-span'>{errorMessage.email}</span>}
         <label htmlFor="subject-input">
           <textarea
             name="message"
@@ -129,8 +131,8 @@ const Contact = () => {
             onBlur={ () => setErrorSpan(false) }
             placeholder="mensagem"
           />
-          {errorSpan.message && <span className='form-span span-text-area'>{errorMessage.message}</span>}
         </label>
+          {errorSpan.message && <span className='form-span span-text-area'>{errorMessage.message}</span>}
         <GradientBtn text={'Enviar'} onClickFunc={ sendForm } disabled={ !validForm }/>
         { emailStatus !== 'none' && 
           <span className='email-status'>
