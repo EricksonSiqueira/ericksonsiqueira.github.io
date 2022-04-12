@@ -26,8 +26,8 @@ export const HeroStyled = styled.section`
     margin-top: -20px;
   }
 
-  button {
-    margin-top: 40px;
+  a {
+    margin-top: 20px;
   }
 
   .hero-txt {
