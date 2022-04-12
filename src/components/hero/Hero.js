@@ -22,8 +22,9 @@ const Hero = () => {
         </section>
         <a
           href="https://www.linkedin.com/in/ericksonsiqueira/"
-          target='_blank'
-          rel='noreferrer'
+          target="_blank"
+          rel="noreferrer"
+          data-testid="hero-linkedin-link"
         >
           <GradientBtn 
             text={'Saiba mais'} 
