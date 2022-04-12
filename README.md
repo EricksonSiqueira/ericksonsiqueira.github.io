@@ -32,7 +32,7 @@ npm run test
 
 <img src="./readme-midias/test-usage.png" alt="Project running gif" width="60%" >
 
-> Pressione `a` tecla a para rodar todos os testes
+> Pressione a tecla `a` para rodar todos os testes
 
 Você deve ver algo parecido com esta imagem:
 
