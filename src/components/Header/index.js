@@ -100,7 +100,13 @@ const Header = () => {
             <img src={menuIcon} alt="icone de menu" />
           </ButtonIcon>
           <ButtonIcon>
-            <img src={reactIcon} alt="icone do react" />
+            <a href="#home" className="logo">
+              <img
+                className="react-icon"
+                src={reactIcon}
+                alt="icone do react"
+              />
+            </a>
           </ButtonIcon>
         </HeaderStyled>
         <HeaderSpacing id="home"/>
