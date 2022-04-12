@@ -84,7 +84,7 @@ https://www.figma.com/file/B5I1cfSynXb3VksbRrpGMY/Portifolio?node-id=0%3A1
 
 ### 🧪 Testes
 - [x] Header
-- [ ] Hero
+- [x] Hero
 - [ ] Sobre
 - [ ] Tecnologias
 - [ ] Projetos
