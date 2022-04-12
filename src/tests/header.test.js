@@ -52,9 +52,7 @@ describe('Header', () => {
       render(<App />);
       const link = screen.getByTestId('header-linkedin-link');
       expect(link).toBeInTheDocument();
-      expect(link).toHaveAttribute('href', 'https://www.linkedin.com/in/ericksonsiqueiraa/');
+      expect(link).toHaveAttribute('href', 'https://www.linkedin.com/in/ericksonsiqueira/');
     });
   });
 });
-
-// just to see if CI runs
