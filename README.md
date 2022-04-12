@@ -28,6 +28,25 @@ Agora é só abrir o seu navegador e  a página deve estar lá na URL `http://lo
 npm run test
 ```
 
+> Caso apareça isto em sua tela
+
+<img src="./readme-midias/test-usage.png" alt="Project running gif" width="60%" >
+
+> Pressione `a` tecla a para rodar todos os testes
+
+Você deve ver algo parecido com esta imagem:
+
+<img src="./readme-midias/test-all.png" alt="Project running gif" width="60%" >
+
+Você também pode filtrar pelo nome do arquivo de teste com o seguinte código `npm test <nome-do-arquivo>`. Exemplo de uso:
+
+```bash
+npm test hero.test.js
+```
+Você deve ver algo parecido com esta imagem:
+
+<img src="./readme-midias/test-with-filter.png" alt="Project running gif" width="80%" >
+
 ## 😊 A cara atual do site
 
 <section style="width: 1200px">
