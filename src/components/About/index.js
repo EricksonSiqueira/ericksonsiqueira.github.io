@@ -1,7 +1,7 @@
 import React from 'react';
-import GradientHead from '../gradientText/GradientText';
+import GradientHead from '../GradientText';
 import { AboutStyled } from './AboutStyle';
-import SectionDivider from '../sectionDivider/SectionDivider';
+import SectionDivider from '../SectionDivider';
 
 const About = () => {
   return(

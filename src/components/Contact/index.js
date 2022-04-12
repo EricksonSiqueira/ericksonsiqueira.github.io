@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { StyledContact } from './ContactStyle';
-import GradientText from '../gradientText/GradientText';
-import SectionDivider from '../sectionDivider/SectionDivider';
-import GradientBtn from '../gradientBtn/GradientBtn';
+import GradientText from '../GradientText';
+import SectionDivider from '../SectionDivider';
+import GradientBtn from '../GradientBtn';
 import { send } from 'emailjs-com';
 import validateEmail from '../../utils/emailValidation';
 
