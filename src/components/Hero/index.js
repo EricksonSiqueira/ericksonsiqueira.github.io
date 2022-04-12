@@ -1,8 +1,8 @@
 import { HeroStyled } from './HeroStyle';
 import heroImg from '../../img/hero-image-v2.png';
 import heroImgWide from '../../img/hero-image-wide-v2.png';
-import GradientBtn from '../gradientBtn/GradientBtn';
-import GradientText from '../gradientText/GradientText';
+import GradientBtn from '../GradientBtn';
+import GradientText from '../GradientText';
 import { useMediaQuery } from '../../hooks/useMediaQuery';
 
 const Hero = () => {

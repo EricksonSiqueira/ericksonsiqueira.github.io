@@ -1,12 +1,12 @@
-import Header from './components/header/Header';
+import Header from './components/Header';
 import Theme from './styles/theme';
-import Hero from './components/hero/Hero';
+import Hero from './components/Hero';
 import { Wrapper, TextSection } from './AppStyle';
-import About from './components/about/About';
-import Technologies from './components/technologies';
-import Projects from './components/projects';
-import Contact from './components/contact';
-import Footer from './components/footer';
+import About from './components/About';
+import Technologies from './components/Technologies';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">

@@ -1,8 +1,8 @@
 import React from 'react';
-import SectionDivider from '../sectionDivider/SectionDivider';
-import GradientText from '../gradientText/GradientText';
+import SectionDivider from '../SectionDivider';
+import GradientText from '../GradientText';
 import StyledTechnologies from './TechnologiesStyle';
-import TechIcon from '../techIcon';
+import TechIcon from '../TechIcon';
 import TechData from '../../data/techs';
 
 const Technologies = () => {

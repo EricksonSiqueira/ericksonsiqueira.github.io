@@ -1,8 +1,8 @@
 import React from 'react';
 import { StyledProjects } from './projectsStyle';
-import SectionDivider from '../sectionDivider/SectionDivider';
-import GradientText from '../gradientText/GradientText';
-import ProjectCard from '../projectCard';
+import SectionDivider from '../SectionDivider';
+import GradientText from '../GradientText';
+import ProjectCard from '../ProjectCard';
 import projects from '../../data/projects';
 
 const Projects = () => {
