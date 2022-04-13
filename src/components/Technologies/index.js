@@ -17,6 +17,7 @@ const Technologies = () => {
             id={tech.text}
             text={tech.text}
             Icon={tech.Icon}
+            doc={tech.doc}
           />
         ))}
       </section>
