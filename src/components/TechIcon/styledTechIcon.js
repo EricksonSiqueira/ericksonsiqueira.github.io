@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
-export default styled.span`
+export default styled.a`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  color: ${(props) => props.theme.colors.textColor};
   text-align: center;
   transition: all 300ms ease-in-out;
   gap: 15px;
@@ -16,10 +17,6 @@ export default styled.span`
     /* background-color: ${(props) => props.theme.colors.lightPurple}; */
     /* border: 5px solid ${(props) => props.theme.colors.lightPurple}; */
     color: ${(props) => props.theme.colors.hoverTech}
-  }
-
-  .icon p {
-    color: ${(props) => props.theme.colors.textColor};
   }
 
   .icon {
