@@ -9,7 +9,7 @@ const Projects = () => {
   return(
     <StyledProjects id="projects" className="section-spacing">
       <SectionDivider />
-      <GradientText text={'Projetos'} classes={'tech-heading'} />
+      <GradientText text={'Projetos'} classes={'project-heading'} />
       <section className="cards">
         {projects.map((project) => (
           <ProjectCard

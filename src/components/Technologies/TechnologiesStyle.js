@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export default styled.section`
   .tech-heading {
     font-size: 50px;
-    width: 270px;
+    width: 300px;
   }
 
   section {
@@ -13,5 +13,12 @@ export default styled.section`
     justify-content: center;
     column-gap: 40px;
     flex-wrap: wrap;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    .tech-heading {
+      font-size: 60px;
+      width: 355px;
+    }
   }
 `

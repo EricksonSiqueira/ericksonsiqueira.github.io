@@ -60,7 +60,7 @@ export const StyledContact = styled.section`
 
   .contact-heading {
     font-size: 50px;
-    width: 190px;
+    width: 205px;
   }
 
   /* img.email-status {
@@ -99,7 +99,11 @@ export const StyledContact = styled.section`
     span.form-span {
       font-size: 18px;
     }
-
   }
 
+  @media ${(props) => props.theme.breakpoints.sm} {
+    .contact-heading {
+      font-size: 60px;
+      width: 240px;
+    }
 `;

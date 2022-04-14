@@ -17,12 +17,19 @@ export const StyledProjects = styled.section`
     padding-bottom: 30px;
   }
 
-  .tech-heading {
+  .project-heading {
     font-size: 50px;
-    width: 190px;
+    width: 215px;
   }
 
   .icon {
     font-size: 25px;
   }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+  .project-heading {
+    font-size: 60px;
+    width: 250px;
+  }
+}
 `;
