@@ -5,8 +5,9 @@ export const AboutStyled = styled.section`
 
   .about-heading {
     font-size: 50px;
-    width: 130px;
+    width: 160px;
   }
+
   section.about-txt {
     display: flex;
     flex-direction: column;
@@ -22,7 +23,7 @@ export const AboutStyled = styled.section`
   @media ${(props) => props.theme.breakpoints.sm} {
     .about-heading {
       font-size: 60px;
-      width: 160px;
+      width: 180px;
     }
     section.about-txt {
       font-size: 26px;
@@ -33,10 +34,6 @@ export const AboutStyled = styled.section`
     margin-top: 50px;
   }
   @media ${(props) => props.theme.breakpoints.lg} {
-    .about-heading {
-      font-size: 60px;
-      width: 160px;
-    }
     section.about-txt {
       line-height: 36px;
     }
