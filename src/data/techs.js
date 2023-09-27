@@ -1,7 +1,7 @@
 import * as FaIcons from 'react-icons/fa';
 import * as SiIcons from 'react-icons/si';
 import * as GrIcons from 'react-icons/gr';
-
+import { SiNextdotjs } from 'react-icons/si';
 
 const data = [
   {
@@ -10,14 +10,19 @@ const data = [
     doc: 'https://pt-br.reactjs.org/docs/getting-started.html',
   },
   {
-    text: 'JavaScript',
-    Icon: SiIcons.SiJavascript,
-    doc: 'https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript',
+    text: 'Next.js',
+    Icon: SiNextdotjs,
+    doc: 'https://pt-br.reactjs.org/docs/getting-started.html',
   },
   {
     text: 'TypeScript',
     Icon: SiIcons.SiTypescript,
     doc: 'https://www.typescriptlang.org/',
+  },
+  {
+    text: 'JavaScript',
+    Icon: SiIcons.SiJavascript,
+    doc: 'https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript',
   },
   {
     text: 'Jest',
